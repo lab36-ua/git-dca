@@ -4,7 +4,9 @@ def jugar_adivinanza():
     numero_secreto = random.randint(1, 100)
     intentos = 0
 
-    print("¡Bienvenido al juego de adivinanzas!")
+    print("****************************************")
+    print("* ¡Bienvenido al juego de adivinanzas! *")
+    print("****************************************")
     print("Estoy pensando en un número entre 1 y 100. ¡Adivina!")
 
     while True:
