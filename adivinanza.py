@@ -20,7 +20,7 @@ def jugar_adivinanza():
         elif intento_usuario > numero_secreto:
             print(f"Muy alto. Intenta de nuevo, {nombre}.")
         else:
-            print("¡Error! ¡El juego siempre falla!")
+            print(f"¡Felicidades {nombre}! ¡Adivinaste el número en {intentos} intentos!")
             break
 
 if __name__ == "__main__":
